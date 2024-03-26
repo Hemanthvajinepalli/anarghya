@@ -1,0 +1,14 @@
+#Trainertransition {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s ease-out;
+  }
+  
+  .visible {
+    max-height: 500px;  /* Adjust the height as needed */
+  }
+  
+  .hidden {
+    max-height: 0;
+  }
+  
